@@ -1,0 +1,33 @@
+{
+    "name": "js_info_2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon --no-warnings ./src/index.js",
+        "test": "mocha ./src/index.spec.js",
+        "node": "node --trace-warnings ./src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Victor-Nikliaiev/js_info_two.git"
+    },
+    "author": "Victor Nikliaiev",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Victor-Nikliaiev/js_info_two/issues"
+    },
+    "homepage": "https://github.com/Victor-Nikliaiev/js_info_two#readme",
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "mocha": "^10.0.0",
+        "nodemon": "^2.0.20"
+    },
+    "dependencies": {
+        "alert": "^5.1.1",
+        "lodash": "^4.17.21",
+        "prompt-sync": "^4.2.0",
+        "sinon": "^14.0.1"
+    }
+}
