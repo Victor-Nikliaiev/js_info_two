@@ -1,1 +1,1 @@
-import "./01_js_lang/02_fundamentals/02_code_structure/script.js";
+import "./01_js_lang/02_fundamentals/03_strict_mode/script.js";
