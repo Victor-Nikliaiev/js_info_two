@@ -1,1 +1,1 @@
-import "./01_js_lang/02_fundamentals/12_nullish_coalescing_operator/script.js";
+import "./01_js_lang/02_fundamentals/13_while_for/script.js";
