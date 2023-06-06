@@ -1,1 +1,1 @@
-import "./01_js_lang/02_fundamentals/10_if_else/script.js";
+import "./01_js_lang/02_fundamentals/11_logical_operators/script.js";
