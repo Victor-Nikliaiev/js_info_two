@@ -1,1 +1,1 @@
-import "./01_js_lang/02_fundamentals/17_arrow_functions_basics/script.js";
+import "./01_js_lang/02_fundamentals/18_js_specials/script.js";
