@@ -38,7 +38,7 @@ function func() {
 let x = prompt("x: ");
 let n = prompt("n: ");
 
-if (isNumberOK(n)) {
+if (checkValidPower(n)) {
     console.log(pow(x, n));
 }
 
@@ -52,7 +52,7 @@ function pow(x, n) {
     return result;
 }
 
-function isNumberOK(n) {
+function checkValidPower(n) {
     if (n <= 0) {
         console.log(`Power of ${x} must be greater than 0`);
         return false;
