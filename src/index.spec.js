@@ -1,1 +1,1 @@
-import "./01_js_lang/03_code_quality/05_testing_mocha/script.spec.js";
+import "./01_js_lang/04_object_basics/01_objects/script.spec.js";

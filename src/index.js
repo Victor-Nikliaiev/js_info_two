@@ -1,1 +1,1 @@
-import "./01_js_lang/03_code_quality/06_polyfills_and_transpilers/script.js";
+import "./01_js_lang/04_object_basics/01_objects/script.js";
