@@ -1,1 +1,1 @@
-import "./01_js_lang/04_object_basics/01_objects/script.js";
+import "./01_js_lang/04_object_basics/02_object_copy/script.js";
