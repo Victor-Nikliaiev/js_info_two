@@ -1,1 +1,1 @@
-import "./01_js_lang/04_object_basics/05_constructor_new/script.spec.js";
+import "./01_js_lang/05_data_types/03_string/script.spec.js";
