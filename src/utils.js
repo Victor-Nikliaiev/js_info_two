@@ -14,3 +14,10 @@ export function confirm(message) {
 
     return false;
 }
+
+export function shuffleV_2(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+}
