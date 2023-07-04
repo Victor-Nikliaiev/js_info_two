@@ -1,1 +1,1 @@
-import "./01_js_lang/05_data_types/06_iterables/script.js";
+import "./01_js_lang/05_data_types/07_map_set/script.js";

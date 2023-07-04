@@ -77,7 +77,7 @@ let randomNumber1 = iterator.next().value;
 let randomNumber2 = iterator.next().value;
 let randomNumber3 = iterator.next().value;
 
-let arrrrrr = Array.from(random);
+// let arrrrrrrrrrrr = Array.from(random);
 console.log(randomNumber1);
 console.log(randomNumber2);
 console.log(randomNumber3);
