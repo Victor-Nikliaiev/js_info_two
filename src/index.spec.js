@@ -1,1 +1,1 @@
-import "./01_js_lang/05_data_types/11_date/script.spec.js";
+import "./01_js_lang/06_advanced_functions/03_closure/script.spec.js";
