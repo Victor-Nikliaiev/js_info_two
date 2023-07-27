@@ -4,7 +4,7 @@
 //         this.speed = 0;
 //     }
 
-import { ExtendedClock } from "./clocks/clock-extended.js";
+import { ExtendedClock } from "./clocks/index.js";
 
 //     run(speed) {
 //         this.speed = speed;
