@@ -1,1 +1,1 @@
-import "./01_js_lang/09_classes/02_class_inheritance/script.js";
+import "./01_js_lang/09_classes/03_static_properties_methods/script.js";
