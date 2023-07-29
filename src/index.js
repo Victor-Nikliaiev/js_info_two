@@ -1,1 +1,1 @@
-import "./01_js_lang/09_classes/04_private_protected_properties_methods/script.js";
+import "./01_js_lang/09_classes/05_extend_natives/script.js";
