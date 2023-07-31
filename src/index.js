@@ -1,1 +1,1 @@
-import "./01_js_lang/09_classes/07_mixins/script.js";
+import "./01_js_lang/10_error_handling/01_try_catch/script.js";
