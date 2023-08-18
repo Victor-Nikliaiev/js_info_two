@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- <script>
+            console.log(this);
+        </script>
+
+        <script type="module">
+            import "./init.js";
+            import { sayHi } from "./config.js";
+
+            document.body.append(sayHi());
+            // console.log(import.meta);
+            // alert(import.meta.url);
+            console.log(this);
+        </script>
+        <script>
+            console.log(typeof button);
+        </script>
+        <script type="module">
+            console.log("Module: " + typeof button);
+        </script>
+        <button id="button">Click me</button> -->
+
+        <!-- <script async type="module">
+            import { counter } from "./counter.js";
+            console.log(counter());
+        </script>
+        <img src="https://picsum.photos/800/100" alt="" /> -->
+
+        <script type="module">
+            alert("Runs in modern browsers");
+        </script>
+
+        <script nomodule>
+            alert(
+                "Modern browsers know both type=module and nomodule, so skip this"
+            );
+            alert(
+                "Old browsers ignore script with unknown type=module, but execute this."
+            );
+        </script>
+    </body>
+</html>
