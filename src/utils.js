@@ -21,3 +21,36 @@ export function shuffleV_2(arr) {
         [arr[i], arr[j]] = [arr[j], arr[i]];
     }
 }
+
+export const proxyHandler = {
+    get(target, prop) {
+        if (prop.startsWith("_")) {
+            throw new Error("Access denied");
+        }
+
+        let value = target[prop];
+        return typeof value === "function" ? value.bind(target) : value;
+    },
+
+    set(target, prop, value) {
+        if (prop.startsWith("_")) {
+            throw new Error("Access denied");
+        }
+
+        target[prop] = value;
+        return true;
+    },
+
+    deleteProperty(target, prop) {
+        if (prop.startsWith("_")) {
+            throw new Error("Access denied");
+        }
+
+        delete target[prop];
+        return true;
+    },
+
+    ownKeys(target) {
+        return Object.keys(target).filter(key => !key.startsWith("_"));
+    },
+};
