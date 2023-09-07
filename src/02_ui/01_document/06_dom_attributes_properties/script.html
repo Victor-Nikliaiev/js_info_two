@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            .order[data-order-state="new"] {
+                color: green;
+            }
+
+            .order[data-order-state="pending"] {
+                color: blue;
+            }
+
+            .order[data-order-state="canceled"] {
+                color: red;
+            }
+        </style>
+        <title>Document</title>
+    </head>
+    <body data-something="hot">
+        <div id="elem" data-about="Elephant">
+            Elephants, majestic giants, roam Africa and Asia. Known for their
+            intelligence and strength, they face threats from poaching and
+            habitat loss.
+        </div>
+        <input type="text" id="userInput" />
+        <!-- <a id="aLink" href="#hello">link</a> -->
+        <div show-info="name"></div>
+        <div show-info="age"></div>
+
+        <div class="order" data-order-state="new">Order #1</div>
+        <div class="order" data-order-state="pending">Order #2</div>
+        <div class="order" data-order-state="canceled">Order #3</div>
+        <div data-widget-name="menu">Choose the genre</div>
+
+        <a name="list">the list</a>
+        <ul>
+            <li><a href="http://google.com">http://google.com</a></li>
+            <li><a href="/tutorial">/tutorial.html</a></li>
+            <li><a href="local/path">local/path</a></li>
+            <li><a href="ftp://ftp.com/my.zip">ftp://ftp.com/my.zip</a></li>
+            <li><a href="http://nodejs.org">http://nodejs.org</a></li>
+            <li>
+                <a href="http://internal.com/test">http://internal.com/test</a>
+            </li>
+        </ul>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
