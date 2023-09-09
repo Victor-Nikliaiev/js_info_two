@@ -1,0 +1,11 @@
+[data-time="hours"] {
+    color: red;
+}
+
+[data-time="minutes"] {
+    color: green;
+}
+
+[data-time="seconds"] {
+    color: blue;
+}
