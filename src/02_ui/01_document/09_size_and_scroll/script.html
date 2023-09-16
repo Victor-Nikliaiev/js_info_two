@@ -3,9 +3,36 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+            #example {
+                width: 300px;
+                height: 200px;
+                border: 25px solid #e8c48f;
+                padding: 20px;
+                overflow: auto;
+            }
+        </style>
         <title>Document</title>
     </head>
     <body>
+        <div id="example">
+            <h1>Introduction</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum
+            quia dignissimos tenetur qui id quibusdam explicabo fuga fugiat
+            nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Distinctio, dolorem. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Incidunt voluptatem repellendus sit, modi ea ad
+            nihil blanditiis eveniet minima, totam molestiae cum facere iusto
+            cupiditate obcaecati temporibus officiis, earum soluta rem in qui.
+            Necessitatibus incidunt molestiae debitis vitae maiores expedita ea?
+            Harum ea eum ad nemo ipsum, ab mollitia quas numquam voluptates, sed
+            consectetur natus beatae. Inventore doloribus aspernatur officiis?
+        </div>
+
+        <input type="button" value="Top" onclick="scrollToTop();" />
+        <input type="button" value="Button" onclick="scrollToBottom();" />
+
+        <span id="elem">Hello!</span>
         <script src="./script.js"></script>
     </body>
 </html>
