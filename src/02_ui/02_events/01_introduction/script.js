@@ -129,7 +129,7 @@ class Menu {
 // button.addEventListener("mouseup", menu);
 
 // #1
-const text = document.getElementById("text");
+const text2 = document.getElementById("text");
 button.onclick = function () {
-    text.hidden = true;
+    text2.hidden = true;
 };
